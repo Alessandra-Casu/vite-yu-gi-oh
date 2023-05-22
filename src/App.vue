@@ -29,10 +29,32 @@ export default {
     <h1>Yu-Gi-Oh Api</h1>
   </AppHeader>
   <main>
-    <ResultsMessage></ResultsMessage>
-    <CharacterCard></CharacterCard>
-    <CharacterList></CharacterList>
+    <div class="container">
+      <ResultsMessage></ResultsMessage>
+      <CharacterCard></CharacterCard>
+      <CharacterList></CharacterList>
+    </div>
   </main>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+</style>
