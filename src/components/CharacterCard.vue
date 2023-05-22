@@ -8,7 +8,10 @@ export default {
 
 <template>
   <div class="card">
-    <img :src="characterData.image" :alt="characterData.name" />
+    <img
+      :src="characterData.card_images[0].image_url_small"
+      :alt="characterData.name"
+    />
     <h2>{{ characterData.name }}</h2>
     <div class="type">{{ characterData.type }}</div>
   </div>
