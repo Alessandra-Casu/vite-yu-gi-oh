@@ -10,7 +10,7 @@ export default {
   <div class="card">
     <img :src="characterData.image" :alt="characterData.name" />
     <h2>{{ characterData.name }}</h2>
-    <div class="type">{{ character.type }}</div>
+    <div class="type">{{ characterData.type }}</div>
   </div>
 </template>
 

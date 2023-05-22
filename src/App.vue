@@ -18,8 +18,8 @@ export default {
   created() {
     //qui fare la richiesta al'api
     axios
-      .get("https://db.ygoprodeck.com/api/v7/cardinfo.php")
-      .then((ajax) => (this.store.characterList = ajax.data.results));
+      .get("https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0")
+      .then((ajax) => (this.store.characterList = ajax.data.data));
   },
 };
 </script>
