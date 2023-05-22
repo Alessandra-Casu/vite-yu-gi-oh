@@ -1,5 +1,4 @@
 <script>
-import CharacterCard from "./components/CharacterCard.vue";
 import CharacterList from "./components/CharacterList.vue";
 import ResultsMessage from "./components/ResultsMessage.vue";
 import axios from "axios";
@@ -25,13 +24,11 @@ export default {
 </script>
 
 <template>
-  <AppHeader>
-    <h1>Yu-Gi-Oh Api</h1>
-  </AppHeader>
+  <h1>Yu-Gi-Oh Api</h1>
+
   <main>
     <div class="container">
       <ResultsMessage></ResultsMessage>
-      <CharacterCard></CharacterCard>
       <CharacterList></CharacterList>
     </div>
   </main>
