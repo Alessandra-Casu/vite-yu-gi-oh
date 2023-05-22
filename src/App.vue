@@ -45,6 +45,9 @@ export default {
   font-family: "Montserrat", sans-serif;
 }
 
+main {
+  background-color: #d48f38;
+}
 .container {
   margin: 0 auto;
   padding: 1rem;

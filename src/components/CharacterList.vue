@@ -29,6 +29,7 @@ export default {
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
 }
 
 .card-character {

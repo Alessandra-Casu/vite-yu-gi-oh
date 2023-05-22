@@ -22,5 +22,7 @@ export default {
   padding-bottom: 2em;
   text-align: center;
   font-weight: bold;
+  background-color: #212529;
+  color: white;
 }
 </style>
