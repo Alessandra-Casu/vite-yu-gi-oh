@@ -20,7 +20,7 @@ export default {
 <style lang="scss">
 .card {
   padding: 2rem 1rem;
-  gap: 1rem;
+  gap: 1rem solid white;
   background-color: #d48f38;
 }
 img {
