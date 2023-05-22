@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div class="results-message">
-    Found {{ store.characterList.lenght }} characters
+    Found {{ store.characterList.length }} characters
   </div>
 </template>
 
